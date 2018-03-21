@@ -12,6 +12,8 @@
 		94E4FF912062F7E700A39116 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 94E4FF8F2062F7E700A39116 /* Main.storyboard */; };
 		94E4FF932062F7E700A39116 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 94E4FF922062F7E700A39116 /* Assets.xcassets */; };
 		94E4FF962062F7E700A39116 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 94E4FF942062F7E700A39116 /* LaunchScreen.storyboard */; };
+		94E4FF9F2062F9CF00A39116 /* Taco.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94E4FF9E2062F9CF00A39116 /* Taco.swift */; };
+		94E4FFA12062F9D900A39116 /* Burrito.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94E4FFA02062F9D900A39116 /* Burrito.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		94E4FF922062F7E700A39116 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		94E4FF952062F7E700A39116 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		94E4FF972062F7E700A39116 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		94E4FF9E2062F9CF00A39116 /* Taco.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Taco.swift; sourceTree = "<group>"; };
+		94E4FFA02062F9D900A39116 /* Burrito.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Burrito.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +58,7 @@
 		94E4FF8A2062F7E700A39116 /* ASimpleCocoapod */ = {
 			isa = PBXGroup;
 			children = (
+				94E4FF9D2062F9BC00A39116 /* CocoapodSource */,
 				94E4FF8B2062F7E700A39116 /* AppDelegate.swift */,
 				94E4FF8D2062F7E700A39116 /* ViewController.swift */,
 				94E4FF8F2062F7E700A39116 /* Main.storyboard */,
@@ -62,6 +67,23 @@
 				94E4FF972062F7E700A39116 /* Info.plist */,
 			);
 			path = ASimpleCocoapod;
+			sourceTree = "<group>";
+		};
+		94E4FF9D2062F9BC00A39116 /* CocoapodSource */ = {
+			isa = PBXGroup;
+			children = (
+				94E4FFA22062FE7400A39116 /* Resources */,
+				94E4FFA02062F9D900A39116 /* Burrito.swift */,
+				94E4FF9E2062F9CF00A39116 /* Taco.swift */,
+			);
+			path = CocoapodSource;
+			sourceTree = "<group>";
+		};
+		94E4FFA22062FE7400A39116 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,6 +160,8 @@
 			files = (
 				94E4FF8E2062F7E700A39116 /* ViewController.swift in Sources */,
 				94E4FF8C2062F7E700A39116 /* AppDelegate.swift in Sources */,
+				94E4FF9F2062F9CF00A39116 /* Taco.swift in Sources */,
+				94E4FFA12062F9D900A39116 /* Burrito.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
