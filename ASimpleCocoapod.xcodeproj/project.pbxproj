@@ -14,6 +14,8 @@
 		94E4FF962062F7E700A39116 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 94E4FF942062F7E700A39116 /* LaunchScreen.storyboard */; };
 		94E4FF9F2062F9CF00A39116 /* Taco.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94E4FF9E2062F9CF00A39116 /* Taco.swift */; };
 		94E4FFA12062F9D900A39116 /* Burrito.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94E4FFA02062F9D900A39116 /* Burrito.swift */; };
+		94E4FFA52063006700A39116 /* burrito.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 94E4FFA32063006700A39116 /* burrito.jpg */; };
+		94E4FFA62063006700A39116 /* taco.png in Resources */ = {isa = PBXBuildFile; fileRef = 94E4FFA42063006700A39116 /* taco.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		94E4FF972062F7E700A39116 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		94E4FF9E2062F9CF00A39116 /* Taco.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Taco.swift; sourceTree = "<group>"; };
 		94E4FFA02062F9D900A39116 /* Burrito.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Burrito.swift; sourceTree = "<group>"; };
+		94E4FFA32063006700A39116 /* burrito.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = burrito.jpg; sourceTree = "<group>"; };
+		94E4FFA42063006700A39116 /* taco.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = taco.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +86,8 @@
 		94E4FFA22062FE7400A39116 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				94E4FFA32063006700A39116 /* burrito.jpg */,
+				94E4FFA42063006700A39116 /* taco.png */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -146,6 +152,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				94E4FF962062F7E700A39116 /* LaunchScreen.storyboard in Resources */,
+				94E4FFA62063006700A39116 /* taco.png in Resources */,
+				94E4FFA52063006700A39116 /* burrito.jpg in Resources */,
 				94E4FF932062F7E700A39116 /* Assets.xcassets in Resources */,
 				94E4FF912062F7E700A39116 /* Main.storyboard in Resources */,
 			);
