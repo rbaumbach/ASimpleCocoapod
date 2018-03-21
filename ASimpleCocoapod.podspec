@@ -5,10 +5,10 @@ Pod::Spec.new do |spec|
   spec.homepage              = 'https://github.com/rbaumbach/ASimpleCocoapod'
   spec.license               = { :type => 'MIT' }
   spec.author                = { 'Ryan Baumbach' => 'github@ryan.codes' }
-  spec.source                = { :git => 'https://github.com/rbaumbach/ASimpleCocoapod', :tag => spec.version.to_s }
+  spec.source                = { :git => 'https://github.com/rbaumbach/ASimpleCocoapod.git', :tag => spec.version.to_s }
   spec.requires_arc          = true
   spec.ios.deployment_target = '11.2'
-  spec.osx.deployment_target = '11.13.3'
+  spec.osx.deployment_target = '10.13.3'
   spec.source_files          = 'ASimpleCocoapod/CocoapodSource/*.{swift}'
   spec.resources             = 'ASimpleCocoapod/CocoapodSource/Resources/*.{jpg,png}'
 end
